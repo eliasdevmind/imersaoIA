@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Micro+5&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background: rgb(39, 169, 179);
+    background: linear-gradient(303deg, rgba(39, 169, 179, 0.8267682072829132) 17%, rgba(115, 0, 255, 0.7063200280112045) 36%, rgba(0, 255, 141, 0.7063200280112045) 81%);
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #00ff15;
+    font-family: "Manrope", sans-serif
+   
+}
+h2{
+    text-align: center;
+    font-family: "Manrope", sans-seri
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0077ff;
+    /* Azul */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #33333379;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077ff;
+    /* Azul */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0055cc;
+    /* Azul mais escuro */
+}
+
+#chat-area {
+    width: 100%;
+    border: 2px solid #0077ff;
+    /* Azul */
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 100px;
+    background-color: #111111cc;
+    /* Preto */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    /* Responsividade do texto */
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #000;
+    /* Preto */
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    /* Responsividade do texto */
+}
